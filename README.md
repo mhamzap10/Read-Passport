@@ -1,8 +1,8 @@
-# How to Read Passport Data Using IronBarcode
+# How to Read Passport Data Using IronOCR
 
-Reading passport data accurately is a critical task for applications that require identity verification, such as border control systems, financial services, or travel booking platforms. The ReadPassport() method from IronBarcode provides an advanced solution to extract relevant information from passport documents.
+Reading passport data accurately is a critical task for applications that require identity verification, such as border control systems, financial services, or travel booking platforms. The ReadPassport() method from IronOCR provides an advanced solution to extract relevant information from passport documents.
 
-IronBarcode, enhanced with the 'IronOcr.Extensions.AdvancedScan' package offers specialized methods for reading various document types, including passports. The ReadPassport() method simplifies the extraction of key data fields from passport images, ensuring high accuracy and reliability.
+IronOCR, enhanced with the 'IronOcr.Extensions.AdvancedScan' package offers specialized methods for reading various document types, including passports. The ReadPassport() method simplifies the extraction of key data fields from passport images, ensuring high accuracy and reliability.
 
 ## Install with NuGet
 ```
@@ -11,9 +11,9 @@ Install-Package IronOcr.Extensions.AdvancedScan
 ```
 ## How to Read Passport Data
 
-To read passport data from an image using IronBarcode, follow these steps:
+To read passport data from an image using IronOCR, follow these steps:
 
-1.  **Install** [IronBarcode](https://www.nuget.org/packages/IronOcr) and the [IronOcr.Extensions.AdvancedScan](https://www.nuget.org/packages/IronOcr.Extensions.AdvancedScan) package to access the ReadPassport() method.
+1.  **Install** [IronOCR](https://www.nuget.org/packages/IronOcr) and the [IronOcr.Extensions.AdvancedScan](https://www.nuget.org/packages/IronOcr.Extensions.AdvancedScan) package to access the ReadPassport() method.
 2.  **Initialize the OCR engine** by creating an instance of the IronTesseract class.
 3.  **Create an OCR input** object using a 'using' statement to ensure proper resource management.
 4.  **Load the passport image** into the OCR input object by specifying the image file path.
