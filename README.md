@@ -68,4 +68,4 @@ Output Screenshot
 
 1. **Installation Note:** Ensure that both the IronOCR and IronOcr.Extensions.AdvancedScan libraries are installed to utilize the ReadPassport() method effectively.
 
-2. **Image Quality:** Ensure the passport image is clear and unobstructed for optimal accuracy. If the passport image is of low resolution or contains noise, the OCR process might struggle to accurately extract the information. To enhance the quality of the input image, you can apply OCR image filters provided by IronBarcode. These filters can help improve the clarity and readability of the text, leading to more accurate results.
+2. **Image Quality:** Ensure the passport image is clear and unobstructed for optimal accuracy. If the passport image is of low resolution or contains noise, the OCR process might struggle to accurately extract the information. To enhance the quality of the input image, you can apply [OCR image filters](https://ironsoftware.com/csharp/ocr/tutorials/c-sharp-ocr-image-filters/) provided by IronOCR. These filters can help improve the clarity and readability of the text, leading to more accurate results.
